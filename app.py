@@ -1,5 +1,5 @@
 from flask import Flask
-import request
+import requests
 
 #Untuk menjelaskan nama modul yang digunakan, sehingga ketika folder lain memanggil folder app akan otomatis teridentifikasi.
 app = Flask(__name__) 
